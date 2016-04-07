@@ -206,7 +206,7 @@ Given a set of images such as those contained in the iterable
 
 .. code-block:: python
 
-    results = mlp.get_output(test_set)
+    results = mlp.get_outputs(test_set)
 
 The variable ``results`` is a numpy array with shape
 ``(num_test_examples, num_outputs) = (10000,10)`` with the model
